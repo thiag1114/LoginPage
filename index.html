@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/user-favicon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="login">
+        <form class="form-login" autocomplete="off">
+            <h2>Sign in</h2>
+            <div class="inputbox">
+                <input class="input-email" type="email">
+                <label class="label-email">Email</label>
+                <i><ion-icon name="mail"></ion-icon></i>
+            </div>
+            <small class="alert-email">The email must be valid. [example@mail.com]</small>
+            <div class="inputbox">
+                <input class="input-password" type="password">
+                <label class="label-password">Password</label>
+                <i><ion-icon name="lock-closed"></ion-icon></i>
+            </div>
+            <small class="alert-password">The password must contain at least 8 digits.</small>
+            <div class="inputcheck">
+                <input type="checkbox">
+                <label>Remember me</label>
+                <a>Forgot Password?</a>
+            </div>
+            <small class="alert-button">Fill in the data correctly to login!</small>
+            <input class="btnLogin"  type="button" value="Login">
+            <label class="label-register">Don’t have an account? <a class="register-link">Register now</a></label>
+            <small class="credits">Coded by <a href="https://github.com/thiag1114" target="_blank">Thiago Augusto <ion-icon name="logo-github"></ion-icon></a></small>
+        </form>
+    </div>
+    <div class="register">
+        <form class="form-register" autocomplete="off">
+            <h2>Register</h2>
+            <div class="inputbox">
+                <input class="input-name" type="text">
+                <label class="label-name">Name</label>
+                <i><ion-icon name="person"></ion-icon></i>
+            </div>
+            <small class="alert-name">The name is too short or contains special characters.</small>
+            <div class="inputbox">
+                <input class="input-email" type="email">
+                <label class="label-email">Email</label>
+                <i><ion-icon name="mail"></ion-icon></i>
+            </div>
+            <small class="alert-email">The email must be valid. [example@mail.com]</small>
+            <div class="inputbox">
+                <input class="input-password" type="password">
+                <label class="label-password">Password</label>
+                <i><ion-icon name="lock-closed"></ion-icon></i>
+            </div>
+            <small class="alert-password">The password must contain at least 8 digits.</small>
+            <div class="inputcheck">
+                <input class="iAgree" type="checkbox">
+                <label>I agree to the terms & conditions</label>
+            </div>
+            <small class="alert-checkbox">You must accept the terms and conditions.</small>
+            <small class="alert-button">Fill in the data correctly to register!</small>
+            <input class="btnRegister"  type="button" value="Register">
+            <label class="label-login">Already have an account? <a class="login-link">Login now</a></label>
+            <small class="credits">Coded by <a href="https://github.com/thiag1114" target="_blank">Thiago Augusto <ion-icon name="logo-github"></ion-icon></a></small>
+        </form>
+    </div>
+    <div class="successRegister">
+        <p>Successfully registered account! Click in 'Login now'.</p>
+    </div>
+    <div class="sign-in">
+        <div class="content">
+            <h1>Welcome, <span class="nameUser"></span>!</h1>
+            <div class="loading"><div class="loading2"></div><div class="ball"></div></div>
+            <input class="logout" type="button" value="Logout">
+        </div>
+    </div>
+</body>
+</html>

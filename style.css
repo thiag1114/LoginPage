@@ -374,6 +374,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    .inputbox input {
+        line-height: 1rem;
+    }
     .successRegister {
         width: 400px;
     }

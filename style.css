@@ -49,7 +49,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .4);
     color: var(--white-text);
     backface-visibility: hidden;
     transform: scale(1);
@@ -257,6 +257,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, .4);
     color: var(--white-text);
     transform: rotateY(180deg);
     backface-visibility: hidden;

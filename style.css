@@ -17,6 +17,7 @@
 }
 
 body {
+    background-color: #1a1a1a;
     background-image: url(assets/bg-city.png);
     background-size: cover;
     background-position: center;
@@ -55,7 +56,8 @@ body {
     transition: ease-in-out .8s;
 }
 
-.form-login h2, .form-register h2 {
+.form-login h2,
+.form-register h2 {
     font-size: 2rem;
     font-weight: 700;
     margin: 3rem 0 1.5rem 0;
@@ -114,6 +116,7 @@ body {
     width: 75%;
     margin: 1rem 0 0 0;
 }
+
 .inputcheck input {
     width: 12px;
     height: 12px;
@@ -139,7 +142,8 @@ body {
     cursor: pointer;
 }
 
-.label-register, .label-login {
+.label-register,
+.label-login {
     width: 75%;
     margin: 1rem 0;
     text-align: center;
@@ -147,7 +151,8 @@ body {
     font-weight: 200;
 }
 
-.register-link, .login-link {
+.register-link,
+.login-link {
     text-decoration: none;
     outline: none;
     color: var(--white-text);
@@ -157,11 +162,14 @@ body {
 }
 
 
-.inputcheck a:hover, .register-link:hover, .login-link:hover {
+.inputcheck a:hover,
+.register-link:hover,
+.login-link:hover {
     color: var(--cian-light);
 }
 
-.btnLogin, .btnRegister {
+.btnLogin,
+.btnRegister {
     width: 75%;
     line-height: 3rem;
     font-size: 1rem;
@@ -172,10 +180,11 @@ body {
     border: 0;
     border-radius: 15px;
     cursor: pointer;
-    transition: ease-in-out .5s; 
+    transition: ease-in-out .5s;
 }
 
-.btnLogin:hover, .btnRegister:hover {
+.btnLogin:hover,
+.btnRegister:hover {
     background-color: var(--white-text);
     color: var(--pink-light);
 }
@@ -210,7 +219,10 @@ body {
     margin: 2rem 0 .5rem 0;
 }
 
-.alert-email, .alert-password, .alert-name, .alert-checkbox {
+.alert-email,
+.alert-password,
+.alert-name,
+.alert-checkbox {
     width: 75%;
     transform: scale(0);
     transition: transform .3s;
@@ -344,7 +356,7 @@ body {
     border: 0;
     border-radius: 8px;
     cursor: pointer;
-    transition: ease-in-out .5s; 
+    transition: ease-in-out .5s;
 }
 
 .content input:hover {
@@ -358,6 +370,25 @@ body {
     }
 
     to {
-        transform: rotate(360deg);    
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        height: 90vh;
+    }
+    .login {
+        width: 100%;
+        justify-content: center;
+    }
+    .form-login {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .form-login {
+        width: 340px;
     }
 }

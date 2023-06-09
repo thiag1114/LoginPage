@@ -27,7 +27,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .login {
@@ -374,13 +374,6 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    html {
-        height: -webkit-fill-available;
-    }
-    body {
-        position: relative;
-        height: -webkit-fill-available;
-    }
     .inputbox input {
         line-height: 1rem;
     }

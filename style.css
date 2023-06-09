@@ -377,7 +377,7 @@ body {
 
 @media screen and (max-width: 1024px) {
     body {
-        height: 90vh;
+        overflow-y: hidden;
     }
     .login {
         width: 100%;
@@ -386,10 +386,17 @@ body {
     .form-login {
         width: 400px;
     }
+    .register {
+        width: 100%;
+        justify-content: center;
+    }
+    .form-register {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 430px) {
-    .form-login {
+    .form-login, .form-register {
         width: 340px;
     }
 }

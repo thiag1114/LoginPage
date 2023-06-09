@@ -283,7 +283,7 @@ body {
     height: 100vh;
     transform: scale(0);
     transition: .5s;
-    background: url(assets/city-welcome.jpg) no-repeat top center;
+    background: url(assets/city-welcome.png) no-repeat top center;
     display: flex;
     align-items: center;
     justify-content: center;

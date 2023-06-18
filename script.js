@@ -360,5 +360,3 @@ logoutButton.addEventListener('click', () => {
         password[0].style.borderBottom = '1px solid #f9f9f9';
     }, 500)
 })
-
-//

@@ -175,43 +175,32 @@ password[1].oninput = () => {
 
 // Verifica se o email é válido
 function isEmailValid(email) {
-
     let emailRegExp = new RegExp (
         /^[a-zA-Z0-9._-]+@[a-zA-Z0-9]+.[a-zA-Z]{2,}$/
     )
-
     if (emailRegExp.test(email) === true) {
         return true;
     }
-
     return false;
-
 }
 
 // Verifica se a senha é válida
 function isPasswordValid(password) {
-
     if (password.length >= 8) {
         return true;
     }
-
     return false;
-
 }
 
 // Verifica se o nome é válido
 function isNameValid(name) {
-
     let nameRegex = new RegExp (
         /^[a-zA-ZáÁéÉíÍóÓúÚ ]{3,}$/
     )
-
     if (nameRegex.test(name) === true) {
         return true;
     }
-
     return false;
-
 }
 
 //Verifica se aceitou os termos para Registrar

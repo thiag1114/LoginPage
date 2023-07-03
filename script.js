@@ -22,7 +22,6 @@ let pageLogin = document.querySelector('.login');
 let pageSignIn = document.querySelector('.sign-in');
 let nameUser = document.querySelector('.nameUser');
 let iAgree = document.querySelector('.iAgree');
-
 // Usuário cadastrado
 let users = [{}];
 
